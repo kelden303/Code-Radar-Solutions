@@ -3,7 +3,7 @@ int main(){
     int num;
     scanf("%d", &num);
 
-    if(num > 2147483648){
+    if(num >> 31){
         printf("Set");
     }
     else{
