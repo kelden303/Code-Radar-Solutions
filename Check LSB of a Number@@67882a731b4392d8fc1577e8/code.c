@@ -4,10 +4,10 @@ int main(){
     scanf("%d", &num);
 
     if(num & 1){
-        print("Set");
+        printf("Set");
     }
     else{
-        print("Not Set");
+        printf("Not Set");
     }
     return 0;
 }
