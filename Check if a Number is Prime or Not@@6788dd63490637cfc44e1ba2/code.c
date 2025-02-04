@@ -8,9 +8,9 @@ int main(){
         printf("Not Prime\n");
         return 0;
     }
-    for (i = 1; i*i <= num; i++){
+    for (i = 2; i*i <= num; i++){
         if (num % i == 0){
-            isPrime == 0;
+            isPrime = 0;
             break;
         }
     }
