@@ -3,7 +3,7 @@ int main(){
     int num;
     scanf("%d", &sum);
 
-    if (num >=1 % num){
+    if (num >= 1&& num % num){
         printf("Prime");
     }
     else{
