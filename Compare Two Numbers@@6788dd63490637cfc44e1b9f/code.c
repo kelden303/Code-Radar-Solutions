@@ -6,7 +6,7 @@ int main(){
     if( a > b){
         printf("First");
     }
-    else if(b > a){
+    else if(a < b){
         printf("Second");
     }
     else{
