@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdio.h>
 int main(){
-    char a;
-    scanf("%c", &a);
-    if (isalpha(a)){
-        a = tolower(a);
+    char ch;
+    scanf("%c", &ch);
+    if (isalpha(ch)){
+        ch = tolower(ch);
 
-        if ( a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' ){
+        if ( ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
             printf("Vowel");
         }
         else{
