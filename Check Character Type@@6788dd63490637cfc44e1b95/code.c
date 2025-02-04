@@ -3,6 +3,9 @@
 int main(){
     char ch;
     scanf("%c", &ch);
+    if(isdigit(ch)){
+        printf("Digitt");
+    }
     if (isalpha(ch)){
         ch = tolower(ch);
 
