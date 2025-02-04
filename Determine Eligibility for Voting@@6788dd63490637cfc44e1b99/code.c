@@ -6,11 +6,11 @@ int main(){
     if( age > 18){
         printf("Eligible");
     }
-    else if (age < 18){
-        printf("Not Eligible");
+    else if (age < 0){
+        printf("Enter a valid age");
     }
     else{
-        printf("Enter a valid number");
+        printf("Not Eligible");
     }
     return 0;
 }
