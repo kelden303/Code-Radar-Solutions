@@ -4,7 +4,7 @@ int main(){
     char ch;
     scanf("%c", &ch);
     if(isdigit(ch)){
-        printf("Digitt");
+        printf("Digit");
     }
     else if (isalpha(ch)){
         ch = tolower(ch);
