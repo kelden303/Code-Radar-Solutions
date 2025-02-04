@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    scanf("%d", &sum);
+    scanf("%d", &num);
 
     if (num >= 1&& num % num){
         printf("Prime");
