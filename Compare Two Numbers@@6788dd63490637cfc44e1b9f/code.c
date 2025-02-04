@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main(){
     int a, b;
-    if(scamf( a == b) != 2){
+    if(scanf( a == b) != 2){
+        return 1;
+    }
+    if(a == b){
         printf("Equal\n");
     }
+
     else if(a > b){
         printf("First\n");
     }
