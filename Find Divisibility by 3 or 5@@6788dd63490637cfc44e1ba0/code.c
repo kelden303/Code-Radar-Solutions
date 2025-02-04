@@ -6,7 +6,7 @@ int main(){
     if( num % 3 == 0 && num %5 == 0){
         printf("Divisible by Both");
     }
-    else if ( num % 3 || num % 5 == 0){
+    else if ( num % 3 == 0 || num % 5 == 0){
         printf("Divisible by 3");
     }
     else{
