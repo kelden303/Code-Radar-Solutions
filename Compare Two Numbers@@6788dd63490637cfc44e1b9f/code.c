@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a, b;
-    if(scanf( a == b) != 2){
+    if(scanf("%d %d", &a, &b) != 2){
         return 1;
     }
     if(a == b){
