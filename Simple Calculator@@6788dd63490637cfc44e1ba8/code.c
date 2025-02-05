@@ -2,7 +2,7 @@
 int main{
     int a, b;
     char op;
-    scanf("%d %d", &a, &b, &op);
+    scanf("%d %d %c", &a, &b, &op);
 
     if(op == '+'){
         printf("%d\n", a + b);
@@ -22,7 +22,7 @@ int main{
         }
     }
     else{
-        printf("Invalid Operand");
+        printf("Invalid Operand\n");
     }
     return 0;
 }
