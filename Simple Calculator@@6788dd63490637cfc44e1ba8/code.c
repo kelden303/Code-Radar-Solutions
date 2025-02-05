@@ -4,17 +4,22 @@ int main{
     char op;
     scanf("%d %d", &a, &b, &op);
 
-    if(op == +){
+    if(op == '+'){
         printf("%d\n", a + b);
     }
-    else if(op == -){
+    else if(op == '-'){
         printf("%d\n", a - b);
     }
-    else if(op == *){
+    else if(op == '*'){
         printf("%d\n", a*b);
     }
-    else if(op == /){
+    else if(op == '/'){
+        if(b == 0){
+            printf("Error!\n");
+        }
+        else{
         printf("%d\n", a/b);
+        }
     }
     else{
         printf("Invalid Operand");
