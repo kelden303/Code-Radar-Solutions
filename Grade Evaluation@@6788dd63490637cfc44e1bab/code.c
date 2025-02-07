@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
     char Grade;
-    scanf("%c", Grade);
+    scanf("%c", &Grade);
 
     if(Grade == 'A'){
         printf("Excellent");
     }
     else if(Grade == 'B'){
-        pritnf("Good");
+        printf("Good");
     }
     else if(Grade == 'C'){
         printf("Average");
