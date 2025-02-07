@@ -8,7 +8,7 @@ int main(){
     else{
         while (!(num & 1)){
             pos ++;
-            num>>== 1;
+            num>>= 1;
         }
         printf("%d", pos);
     }
