@@ -10,10 +10,6 @@ int main() {
         printf("Enter an odd number.\n");
         return 1;  // Exit if the input is even
     }
-    else{
-        N = N + 1;
-    }
-
     // Upper half of the diamond (including the middle row)
     for (i = 1; i <= N; i += 2) {
         // Print leading spaces
