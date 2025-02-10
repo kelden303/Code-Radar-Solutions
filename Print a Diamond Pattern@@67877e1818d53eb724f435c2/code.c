@@ -8,7 +8,7 @@ int main() {
     // Check if N is odd
     if (N % 2 == 0) {
         printf("Enter an odd number!\n");
-        N = N + 1  // Exit if the input is even
+        N = N + 1;  // Exit if the input is even
     }
 
     // Upper half of the diamond (including the middle row)
