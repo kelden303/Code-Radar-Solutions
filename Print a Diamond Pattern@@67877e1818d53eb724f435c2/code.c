@@ -2,11 +2,6 @@
 int main(){    
     int N, i, j, k;
     scanf("%d", &N);
-
-    if(N % 2 == 0){
-        printf("Enter an odd number\n");
-        return 1;
-    }
     for(i = 1; i <= N; i+= 2){
         for(k = 0; k <(N-i)/2; k++){
             printf(" ");
