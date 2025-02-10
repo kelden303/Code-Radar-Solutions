@@ -8,13 +8,13 @@ int main() {
     // Check if N is odd
     if (N % 2 == 0) {
         printf("Enter an odd number!\n");
-        return 1;  // Exit if the input is even
+        N += 1  // Exit if the input is even
     }
 
     // Upper half of the diamond (including the middle row)
     for (i = 1; i <= N; i += 2) {
         // Print leading spaces
-        for (k = 0; k < N / 2; k++) {
+        for (k = 0; k < (N- i) / 2; k++) {
             printf(" ");
         }
 
