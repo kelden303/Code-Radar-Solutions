@@ -2,6 +2,6 @@
 int main(){
     int num;
     scnaf("%d", &num);
-    pritnf("%d", -num);
+    printf("%d", -num);
     return 0;
 }
