@@ -7,7 +7,6 @@ int main() {
     scanf("%d", &N);
     // Check if N is odd
     if (N % 2 == 0) {
-        printf("Enter an odd number!\n");
         N = N + 1;  // Exit if the input is even
     }
 
