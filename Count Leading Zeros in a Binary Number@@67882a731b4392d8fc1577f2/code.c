@@ -10,17 +10,10 @@ int main() {
         return 0;
     }
 
-    // Handle negative numbers by converting them to positive
-    if (num < 0) {
-        num = ~num + 1;
-    }
-
     // Count leading zeros using bitwise shifting
-    for (int i = 31; i >= 0; i--) {
-        if (num & (1 << i)) {
-            break;
-        }
+    while (!(num & (1 << 31))) {  // While the most significant bit is 0
         count++;
+        num <<= 1;  // Shift left
     }
 
     // Output the count of leading zeros
