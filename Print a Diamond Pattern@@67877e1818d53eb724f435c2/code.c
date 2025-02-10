@@ -22,9 +22,9 @@ int main() {
     }
 
     // Lower half of the diamond (excluding the middle row)
-    for (i = 2* N - 3; i > 0; i -= 2) {
+    for (i = 2 * N - 3; i > 0; i -= 2) {
         // Print leading spaces
-        for (k = 0; k < (2*N - i) / 2; k++) {
+        for (k = 0; k < (2 * N - i) / 2; k++) {
             printf(" ");
         }
 
