@@ -7,10 +7,13 @@ int main(){
         printf("Enter an odd number\n");
         return 1;
     }
-    for(i = 1; i <= N; i++ 2){
+    for(i = 1; i <= N; i+= 2){
         for(k = 0; k <(N-i)/2; k++){
-            printf("*");
+            printf("");
         }
+        for(j = 0; j < i; j++){
+            printf("*");
+        }    
         printf("\n");
     }
     for(i = N -2; i > 0; i -= 2){
