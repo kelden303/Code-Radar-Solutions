@@ -16,9 +16,9 @@ int main(){
     for(i = n -2; i > 0; i -= 2){
         for(k = 0; k <(n-i)/2; k++){
             printf(" ");
-            for(j = 0; j < i; j++){
-                printf("*");
         }
+        for(j = 0; j < i; j++){
+                printf("*");
         }
         printf("\n");
     }
