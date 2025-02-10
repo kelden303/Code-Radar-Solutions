@@ -3,7 +3,7 @@ int main(){
     int N, i, j, k;
     scanf("%d", &N);
 
-    if(n % 2 == 0){
+    if(N % 2 == 0){
         printf("Enter an odd number\n");
         return 1;
     }
