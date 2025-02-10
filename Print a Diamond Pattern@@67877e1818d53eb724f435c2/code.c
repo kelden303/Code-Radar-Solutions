@@ -7,7 +7,11 @@ int main() {
     scanf("%d", &N);
     // Check if N is odd
     if (N % 2 == 0) {
-        N = N + 1;  // Exit if the input is even
+        printf("Enter an odd number.\n");
+        return 1;  // Exit if the input is even
+    }
+    else{
+        N = N + 1;
     }
 
     // Upper half of the diamond (including the middle row)
