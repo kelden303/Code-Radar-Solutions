@@ -5,8 +5,6 @@ int main() {
 
     // Take input for N
     scanf("%d", &N);
-
-    }
     // Upper half of the diamond (including the middle row)
     for (i = 1; i <= 2 * N-1; i += 2) {
         // Print leading spaces
