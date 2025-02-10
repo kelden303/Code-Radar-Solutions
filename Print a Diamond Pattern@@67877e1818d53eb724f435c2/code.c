@@ -5,15 +5,12 @@ int main() {
 
     // Take input for N
     scanf("%d", &N);
-    // Check if N is odd
-    if (N % 2 == 0) {
-        printf("Enter an odd number.\n");
-        return 1;  // Exit if the input is even
+
     }
     // Upper half of the diamond (including the middle row)
-    for (i = 1; i <= N; i += 2) {
+    for (i = 1; i <= 2 * N-1; i += 2) {
         // Print leading spaces
-        for (k = 0; k < (N- i) / 2; k++) {
+        for (k = 0; k < (2 * N- i) / 2; k++) {
             printf(" ");
         }
 
@@ -25,9 +22,9 @@ int main() {
     }
 
     // Lower half of the diamond (excluding the middle row)
-    for (i = N - 2; i > 0; i -= 2) {
+    for (i = 2* N - 3; i > 0; i -= 2) {
         // Print leading spaces
-        for (k = 0; k < (N - i) / 2; k++) {
+        for (k = 0; k < (2*N - i) / 2; k++) {
             printf(" ");
         }
 
