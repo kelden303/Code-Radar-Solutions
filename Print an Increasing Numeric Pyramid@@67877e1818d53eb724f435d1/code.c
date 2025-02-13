@@ -4,7 +4,7 @@ void main()
 {
    int i, j, n; // Declare variables for loop counters and the number of rows.
 
-   printf("Input number of rows : "); // Prompt the user to input the number of rows.
+   printf(" "); // Prompt the user to input the number of rows.
    scanf("%d", &n); // Read the input from the user.
 
    for(i = 0; i <= n; i++) // Loop to generate each row of the pattern.
