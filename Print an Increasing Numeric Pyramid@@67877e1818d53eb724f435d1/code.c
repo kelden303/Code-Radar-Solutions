@@ -8,12 +8,7 @@ void main()
    scanf("%d", &n); // Read the input from the user.
 
    for(i = 0; i <= n; i++) // Loop to generate each row of the pattern.
-   {
-     /* Print blank spaces */
-     for(j = 1; j <= n - i; j++) // Loop to print spaces before the numbers.
-       printf(" ");
-
-     /* Display numbers in ascending order up to the middle */
+   { /* Display numbers in ascending order up to the middle */
      for(j = 1; j <= i; j++) // Loop to print numbers in ascending order.
        printf("%d", j);
 
