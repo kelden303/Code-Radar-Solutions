@@ -8,7 +8,7 @@ void main()
    for(i = 0; i <= n; i++) // Loop to generate each row of the pattern.
    { /* Display numbers in ascending order up to the middle */
      for(j = 1; j <= i; j++) // Loop to print numbers in ascending order.
-       printf("%d", j);
+       printf("%d ", j);
 
      /* Display numbers in reverse order after the middle */
      for(j = i - 1; j >= 1; j--) // Loop to print numbers in descending order.
