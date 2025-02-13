@@ -3,7 +3,7 @@
 void main() {
    int i, j, spc, rows, k;  // Declare variables 'i' and 'j' for loop counters, 'spc' for spaces, 'rows' for user input, 'k' for loop counter.
 
-   printf("Input number of rows : ");  // Print a message to prompt user input.
+   printf(" ");  // Print a message to prompt user input.
    scanf("%d", &rows);  // Read the value of 'rows' from the user.
    spc = rows + 4 - 1;  // Calculate the initial number of spaces.
 
