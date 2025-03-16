@@ -1,5 +1,15 @@
 #include <stdio.h>
-
+int main(){
+    int n;
+    scanf("%d,&n");
+    int arr[n];
+    for (int i= 0; i < n; i++){
+        scanf("%d", &arr[i]);
+    }
+    bubbleSort(arr, n);
+    printArary(arr, n);
+    return 0;
+}
 // Function to implement Bubble Sort
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
@@ -12,28 +22,4 @@ void bubbleSort(int arr[], int n) {
             }
         }
     }
-}
-
-int main() {
-    int n;
-    
-    // Read number of elements
-    scanf("%d", &n);
-    
-    int arr[n]; // Declare array
-    
-    // Read array elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    // Call Bubble Sort function
-    bubbleSort(arr, n);
-
-    // Print sorted array
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-
-    return 0;
 }
