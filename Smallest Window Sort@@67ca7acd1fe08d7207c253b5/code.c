@@ -34,19 +34,3 @@ int findUnsortedSubarray(int arr[], int n) {
     return right - left + 1;
 }
 
-int main() {
-    int t;
-    scanf("%d", &t);  // Read number of test cases
-    while (t--) {
-        int n;
-        scanf("%d", &n);  // Read array size
-        int arr[n];
-        
-        for (int i = 0; i < n; i++) {
-            scanf("%d", &arr[i]);  // Read array elements
-        }
-        
-        printf("%d\n", findUnsortedSubarray(arr, n));  // Print the result
-    }
-    return 0;
-}
