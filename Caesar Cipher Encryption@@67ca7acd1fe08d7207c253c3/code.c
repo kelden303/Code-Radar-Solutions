@@ -1,5 +1,3 @@
-
-
 void caesarCipher(char message[], int shift) {
     int i;
     for (i = 0; message[i] != '\0'; i++) {
