@@ -4,7 +4,7 @@
 // Function to perform insertion sort on an array of strings
 void insertionSort(char arr[], int n) {
     for (int i = 1; i < n; i++) {
-        char key[];
+        char key;
         strcpy(key, arr[i]); // Select the current string to be inserted
         int j = i - 1;
 
