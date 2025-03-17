@@ -24,5 +24,4 @@ void printArray(char arr[][100], int n) {
     }
 }
 
-    }
-}
+
