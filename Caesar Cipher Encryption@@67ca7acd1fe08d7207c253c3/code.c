@@ -3,7 +3,7 @@
 #include <string.h>
 
 // Function to encrypt a message using Caesar Cipher
-void caesarCipherEncrypt(char message[], int shift) {
+void caesarCipher(char message[], int shift) {
     for (int i = 0; message[i] != '\0'; i++) {
         // Encrypt uppercase letters
         if (message[i] >= 'A' && message[i] <= 'Z') {
