@@ -20,7 +20,7 @@ void insertionSort(char arr[], int n) {
 
 // Function to print an array of integers
 void printArray(char arr[], int n) {
-    for (char i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
