@@ -1,19 +1,14 @@
-// Your code here...
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
-// Function to encrypt a message using Caesar Cipher
 void caesarCipher(char message[], int shift) {
-    for (int i = 0; message[i] != '\0'; i++) {
-        // Encrypt uppercase letters
-        if (message[i] >= 'A' && message[i] <= 'Z') {
-            message[i] = (message[i] - 'A' + shift) % 26 + 'A';
+    int i;
+    for (i = 0; message[i] != '\0'; i++) {
+        if (isalpha(message[i])) {
+            char base = islower(message[i]) ? 'a' : 'A';
+            message[i] = (message[i] - base + shift) % 26 + base;
         }
-        // Encrypt lowercase letters
-        else if (message[i] >= 'a' && message[i] <= 'z') {
-            message[i] = (message[i] - 'a' + shift) % 26 + 'a';
-        }
-        // Non-alphabetic characters remain unchanged
     }
 }
 
