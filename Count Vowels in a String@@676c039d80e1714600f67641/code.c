@@ -1,7 +1,7 @@
 // Your code here...
+#include <stdio.h>
 int main(){
     char str[100];
-
     scanf("%s", str);
     int vowels_count = 0;
 
