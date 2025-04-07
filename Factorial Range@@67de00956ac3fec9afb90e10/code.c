@@ -13,11 +13,11 @@ int factorial(int n){
     }
     return fact;
 }
-int factorialRange(int start, int end){
+void factorialRange(int start, int end){
 
     if(start > end){
         printf("Invalid range");
-        return 1;
+        return;
     }
     for(int i = start; i <= end; i++){
         int result = factorial(i);
