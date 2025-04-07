@@ -13,7 +13,8 @@ void factorialRange(int start, int end){
         if(i > 1){
             fact *= i;
         }
-     }
-     printf("%d\n", fact);
+        printf("%d\n", fact);
 
+     }
+     
 }
