@@ -16,6 +16,7 @@ int factorial(int n){
 int factorialRange(int start, int end){
 
     if(start > end){
+        printf("Invalid range");
         return 1;
     }
     for(int i = start; i <= end; i++){
@@ -24,7 +25,7 @@ int factorialRange(int start, int end){
             printf("Invalid range");
         }
         else{
-            printf("%d", result);
+            printf("%d\d", result);
         }
     }
 
