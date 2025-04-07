@@ -7,7 +7,7 @@ void factorialRange(int start, int end){
     }
      int fact = 1;
      for(int i = 1; i <= start; i++){
-        fact *= 1;
+        fact *= i;
      }
      for(int i = start; i <= end; i++){
         if(i > 1){
