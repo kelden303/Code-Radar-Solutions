@@ -1,29 +1,19 @@
 #include <stdio.h>
-
-int factorial(int n){
-    if(n < 0)  return -1;
-    if(n == 0) return 1;
-    
-    int fact = 1;
-    for(int i = 1; i <= n; i++){
-        fact *= i;
-    }
-    return fact;
-}
 void factorialRange(int start, int end){
 
-    if(start > end){
+    if(start > end || start < 0){
         printf("Invalid range\n");
         return;
     }
-    for(int i = start; i <= end; i++){
-        int result = factorial(i);
-        if(result == -1){
-            printf("Invalid range");
+     int fact = 1;
+     for(int i = 1; i <= start; i++){
+        fact *= 1;
+     }
+     for(int i = start; i <= end; i++){
+        if(i > 1){
+            fact *= i;
         }
-        else{
-            printf("%d\n", result);
-        }
-    }
+     }
+     printf("%d\n", fact);
 
 }
