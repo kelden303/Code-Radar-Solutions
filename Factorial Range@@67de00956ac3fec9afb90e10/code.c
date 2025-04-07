@@ -25,7 +25,7 @@ int factorialRange(int start, int end){
             printf("Invalid range");
         }
         else{
-            printf("%d\d", result);
+            printf("%d\n", result);
         }
     }
 
