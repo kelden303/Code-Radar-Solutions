@@ -14,7 +14,6 @@ void factorialRange(int start, int end){
             fact *= i;
         }
         printf("%d\n", fact);
-
      }
      
 }
