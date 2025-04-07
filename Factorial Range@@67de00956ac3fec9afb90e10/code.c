@@ -6,7 +6,7 @@ int factorial(int n){
     }
     int fact = 1;
     for(int i = 1; i <= n; i++){
-        fact *= 1;
+        fact *= i;
     }
     return fact;
 }
