@@ -1,25 +1,33 @@
-// Your code here...
 #include <stdio.h>
 
-int main(){
+int main() {
     char str[1000];
     int count = 0, i = 0;
 
+    // Read a line of input, including spaces
+    printf("Enter a string: ");
     scanf(" %[^\n]", str);
 
-    while(str[i] == ' '){
+    // Skip leading spaces
+    while (str[i] == ' ') {
         i++;
     }
-    if(str[i] == '\0'){
+
+    // If the string is empty or contains only spaces
+    if (str[i] == '\0') {
         printf("0\n");
         return 0;
     }
 
-    for(; str[i] != '\0'; i++){
-        if((str[i] != ' ' && str[i+1] == ' ') || (str[i] != ' ' && str[i+1] == '\0')){
+    // Count words
+    for (; str[i] != '\0'; i++) {
+        // Check if the current character is not a space and the next character is a space or end of string
+        if ((str[i] != ' ' && str[i + 1] == ' ') || (str[i] != ' ' && str[i + 1] == '\0')) {
             count++;
         }
     }
-    printf("%d", count);
+
+    // Print the total number of words
+    printf("%d\n", count);
     return 0;
 }
