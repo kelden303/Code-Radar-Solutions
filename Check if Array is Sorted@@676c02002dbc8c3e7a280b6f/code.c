@@ -3,7 +3,7 @@ int main(){
 int n, i;
 int isSorted = 1;
 
-scanf("%d", &d);
+scanf("%d", &n);
 int arr[n];
 
 for(int i = 0; i < n; i++){
