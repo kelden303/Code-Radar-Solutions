@@ -5,7 +5,6 @@ int main() {
     int count = 0, i = 0;
 
     // Read a line of input, including spaces
-    printf("Enter a string: ");
     scanf(" %[^\n]", str);
 
     // Skip leading spaces
