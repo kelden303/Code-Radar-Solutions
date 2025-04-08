@@ -1,4 +1,4 @@
-int binarySearch(int arr[], int target){
+int binarySearch(int arr[], int n, int target){
     int left = 0, right = n - 1;
     
     while(left <= right){
