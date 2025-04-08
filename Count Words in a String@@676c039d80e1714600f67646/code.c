@@ -5,7 +5,7 @@ int main() {
     int count = 0, i = 0;
 
     // Prompt the user for input
-    printf("Enter a string: ");
+    
     // Read a line of input, including spaces
     fgets(str, sizeof(str), stdin); // Use fgets to read the entire line
 
