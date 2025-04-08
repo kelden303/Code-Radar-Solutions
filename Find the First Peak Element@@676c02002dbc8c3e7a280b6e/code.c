@@ -15,7 +15,7 @@ int findFirstPeak(int arr[], int n){
         }
     }
     if(arr[n - 1]> arr[n - 2]){
-        return -1;
+        return arr[n - 1];
     }
     return -1;
 }
