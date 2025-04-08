@@ -3,8 +3,11 @@
 int main() {
     char str[1000];
     int count = 0, i = 0;
+
+    // Prompt the user for input
+    printf("Enter a string: ");
     // Read a line of input, including spaces
-    scanf(" %[^\n]", str);
+    fgets(str, sizeof(str), stdin); // Use fgets to read the entire line
 
     // Skip leading spaces
     while (str[i] == ' ') {
@@ -12,7 +15,7 @@ int main() {
     }
 
     // If the string is empty or contains only spaces
-    if (str[i] == '\0') {
+    if (str[i] == '\0' || str[i] == '\n') {
         printf("0\n"); // Print 0 for empty input
         return 0;
     }
