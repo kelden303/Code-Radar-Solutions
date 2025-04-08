@@ -4,9 +4,9 @@
 
 int main(){
     char str[100];
-
-    scanf("%s", str);
     char oldChar, newChar;
+    
+    scanf("%s", str);
 
     scanf(" %c", &oldChar);
     scanf(" %c", &newChar);
