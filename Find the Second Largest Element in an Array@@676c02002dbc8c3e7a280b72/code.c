@@ -20,7 +20,7 @@ int main(){
         }
     }
     if(second == INT_MIN){
-        printf("No second largest number");
+        printf("-1\n");
     }
     else{
         printf("%d\n", second);
