@@ -19,7 +19,7 @@ int main(){
         printf("Yes\n");
     }
     else{
-        Printf("No");
+        printf("No");
     }
     return 0;
 
