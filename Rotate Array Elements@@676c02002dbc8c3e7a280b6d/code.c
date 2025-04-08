@@ -6,7 +6,7 @@ void rotate(int arr[], int n, int k){
         int temp = arr[i];
         arr[i] = arr[n - i - 1];
         arr[n - i - 1] = temp;
-
+    }
         for(int i = 0; i < k/2; i++){
             int temp = arr[i];
             arr[i] = arr[k - i - 1];
@@ -17,7 +17,7 @@ void rotate(int arr[], int n, int k){
             arr[i] = arr[n - i + k - 1];
             arr[n - i + k - 1] = temp;
         }
-    }
+    
 }
 int main(){
     int n;
