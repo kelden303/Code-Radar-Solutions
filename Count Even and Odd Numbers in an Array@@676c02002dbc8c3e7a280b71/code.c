@@ -15,13 +15,13 @@ int main(){
         if(arr[i] % 2 == 0){
             even_count++;
         }
-        printf("%d\n",even_count);
+        printf("%d ",even_count);
     }
     for(int i = 0; i < n; i++){
         if(arr[i] % 2 != 0){
             odd_count++;
         }
-        printf("%d\n",odd_count);
+        printf("%d",odd_count);
     }
     return 0;
 }
