@@ -11,15 +11,16 @@ int main(){
     int len = strlen(str);
 
     for (int i = 0; i < len / 2; i++){
-        if(str[i] != str[len - i - 1]);
+        if(str[i] != str[len - i - 1]){
         isPalindrome = 0;
         break;
+    }
     }
     if(isPalindrome){
         printf("Yes\n");
     }
     else{
-        printf("No");
+        printf("No\n");
     }
     return 0;
 
