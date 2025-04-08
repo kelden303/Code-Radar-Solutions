@@ -4,7 +4,7 @@
 
 int main(){
     char str[100];
-    isPalindrome = 1;
+    int isPalindrome = 1;
 
     scanf("%s", str);
 
