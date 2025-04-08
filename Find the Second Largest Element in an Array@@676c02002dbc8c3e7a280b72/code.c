@@ -7,7 +7,7 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-    int first = int_min, second = int_min;
+    int first = INT_MIN, second = INT_MIN;
 
     for(int i = 0; i < n; i++){
         if (arr[i] > first){
@@ -18,7 +18,7 @@ int main(){
             second = arr[i];
         }
     }
-    if(second == int_min){
+    if(second == INT_MIN){
         printf("No second largest number");
     }
     else{
