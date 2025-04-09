@@ -9,14 +9,14 @@ int main(){
     int n;
     scanf("%d", &n);
 
-    struct Student student[n];
+    struct Student students[n];
 
     for(int i = 0; i < n; i++){
-        printf("%d %s %f", &student[i].rn, student[i].name, &student[i].marks);
+        printf("%d %s %f", &students[i].rn, students[i].name, &students[i].marks);
     }
 
     for(int i = 0; i < n; i++){
-        printf("Roll Number: %d, Name: %s, Marks: %.2f", student[i].rn, student[i].name, student[i].marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f", students[i].rn, students[i].name, students[i].marks);
     }
     return 0;
 }
