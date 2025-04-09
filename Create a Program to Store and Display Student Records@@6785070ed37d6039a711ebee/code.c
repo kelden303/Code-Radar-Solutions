@@ -1,7 +1,7 @@
 #include <stdio.h>
 struct Student{
     int rn;
-    char[100] name;
+    char name[100];
     float marks;
 };
 
