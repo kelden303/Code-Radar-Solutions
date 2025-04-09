@@ -3,7 +3,7 @@
 
 int main(){
     char str[100];
-    scanf("%s", str);
+    scanf("%[^\n]", str);
     
     for(int i = 0; str[i]; i++){
         if(islower(str[i])){
