@@ -1,5 +1,5 @@
 #include <stdio.h>
-int struct Student{
+struct Student{
     int rn;
     char[100] name;
     float marks;
