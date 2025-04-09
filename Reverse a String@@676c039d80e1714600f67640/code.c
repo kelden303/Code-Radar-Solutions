@@ -9,8 +9,9 @@ int main(){
 
     int len = strlen(str);
     for(int i = 0; i < len / 2; i++){
-        char rev = str(len - i - 1);
+        char rev[100] = str(len - i - 1);
     }
+    rev[len] = '\0';
     printf("%s", rev);
     return 0;
 }
