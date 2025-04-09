@@ -9,7 +9,7 @@ int main(){
 
     int len = strlen(str);
     for(int i = 0; i < len; i++){
-        char rev[i] = str(len - i - 1);
+        char rev[i] = str[len - i - 1];
     }
     rev[len] = '\0';
     printf("%s", rev);
