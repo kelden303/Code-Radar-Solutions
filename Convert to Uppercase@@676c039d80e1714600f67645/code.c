@@ -5,11 +5,14 @@ int main(){
     char str[100];
     scanf("%s", str);
     
-    if(islower(str)){
-      printf("%s", toupper(str));  
+    for(int i = 0; str[i]; i++){
+        if(islower(str[i])){
+            str[i] = toupper(str[i]);
+        }
+        else{
+            str[i] = tolower(str[i]);
+        }
     }
-    else{
-        printf("%s", tolower(str));
-    }
+    printf("%s", str);
     return 0;
 }
