@@ -2,6 +2,7 @@
 
 int main(){
     char str[100];
+    int i = 0;
     scanf("%99[^\n]", str);
     
     while(str[i] != '\0'){
