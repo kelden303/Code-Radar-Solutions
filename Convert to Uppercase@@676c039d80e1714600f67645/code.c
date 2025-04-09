@@ -3,16 +3,14 @@
 
 int main(){
     char str[100];
-    scanf("%[^\n]", str);
+    scanf("%99[^\n]", str);
     
-    for(int i = 0; str[i]; i++){
-        if(islower(str[i])){
-            str[i] = toupper(str[i]);
+    while(str[i] != '\0'){
+        if(str[i] >= 'a' && str[i] <= 'z'){
+            str[i] = str[i] - ('a' - 'A');
         }
-        else{
-            str[i] = tolower(str[i]);
-        }
+        i++;
     }
-    printf("%s", str);
+    printf("%s\n", str);
     return 0;
 }
