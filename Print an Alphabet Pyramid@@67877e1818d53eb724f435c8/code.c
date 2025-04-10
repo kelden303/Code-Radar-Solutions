@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    char n[100];
+    char n;
     scanf("%c", n);
 
     for(int i = 0; i <= n; i++){
