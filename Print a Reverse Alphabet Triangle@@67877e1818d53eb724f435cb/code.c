@@ -9,7 +9,7 @@ int main(){
             printf(" ");
         }
         for(int k = 0; k <= n; k--){
-            printf("%c ", 'A' + k );
+            printf("%d ", 'A' + k );
         }
         printf("\n");
     }
