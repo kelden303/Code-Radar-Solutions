@@ -11,7 +11,9 @@ int main(){
     for(int k = 1; k <= i; k++){
         printf("%d ", k);
     }
+    if(i != n){
     printf("\n");
+    }
     }
     return 0; 
 }
